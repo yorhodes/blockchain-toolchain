@@ -26,7 +26,7 @@ services:
     service_id: hostedgit
     parameters:
       repo_name: '{{toolchain.name}}-cc-repo'
-      repo_url: 'https://github.com/IBM-Blockchain-Starter-Kit/chaincode-bootstrap.git'
+      repo_url: 'https://github.com/sanjayravindraibm/chaincode-bootstrap.git'
       type: clone
       has_issues: true
       enable_traceability: true
@@ -50,7 +50,7 @@ services:
           ORG_NAME: '{{form.pipeline.parameters.deploy-organization}}'
           SPACE_NAME: '{{form.pipeline.parameters.deploy-space}}'
           SCRIPT_DIR: './scripts/'
-          SCRIPT_URL: 'https://raw.githubusercontent.com/yorhodes/build-lib/testreport/src'
+          SCRIPT_URL: 'https://raw.githubusercontent.com/yorhodes/build-lib/multidir/src'
         execute: true
 form:
   pipeline:
