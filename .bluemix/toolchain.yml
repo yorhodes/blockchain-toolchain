@@ -50,7 +50,7 @@ services:
           ORG_NAME: '{{form.pipeline.parameters.deploy-organization}}'
           SPACE_NAME: '{{form.pipeline.parameters.deploy-space}}'
           SCRIPT_DIR: './scripts/'
-          SCRIPT_URL: 'https://raw.githubusercontent.com/IBM-Blockchain-Starter-Kit/build-lib/master/src'
+          SCRIPT_URL: 'https://raw.githubusercontent.com/yorhodes/build-lib/testreport/src'
         execute: true
 form:
   pipeline:
